@@ -1,0 +1,110 @@
+* {
+    background: radial-gradient(circle, rgba(63, 94, 251, 0.486) 0%, rgba(252, 70, 106, 0.562) 100%) no-repeat;
+    margin:0px;
+}
+nav {
+    padding:10px;
+}
+nav a {
+    display:inline;
+    text-decoration: none;
+    font-family: 'roboto';
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color:black;
+    margin-left: 15px;
+}
+nav a:hover {
+    border: white 1px solid;
+    background-color: white;
+    box-shadow: 1px 1px white;
+    font-size: 26px;
+}
+#home {
+    height: 520px;
+    width:100%;
+}
+#home h1 {
+    text-align: center;
+    padding-top:50px;
+    padding-bottom: 20px;
+    font-size: 100px;
+    position: center;
+    font-family: 'roboto';
+    border:2px inset;
+}
+#home button {
+    margin-left: 30%;
+    margin-right: 50%;
+    font-size: 20px;
+    padding:10px;
+    margin-top: 10px;
+    font-family: 'roboto';
+    font-weight: bold;
+    border: 1 black solid;
+}
+#home button:hover {
+    background-color: white;
+    box-shadow: 1px 1px white;
+    border: white 1px solid;
+    font-size: 22px;
+}
+#home button a {
+    text-decoration: none;
+    color:black;
+}
+#about p {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.6;
+    font-family: 'roboto';
+    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-left:10px;
+    padding-right: 10px;
+    text-align: center;
+}
+#about h1 {
+    text-align: center;
+}
+iframe {
+    display:block;
+    margin:auto;
+}
+#work {
+    margin:10px;
+    padding:50px;
+    margin:auto;
+    text-align: center;
+}
+#work img {
+    margin-top:20px;
+    border:1px inset;
+    width:600px;
+    height:600px;
+}
+#titre{
+    font-size: 50px;
+    position: center;
+    font-family: 'roboto';
+}
+#resume {
+    text-align: center;
+    line-height: 1.8;
+    font-family: 'roboto';
+    font-size:30px ;
+    border:1px inset;
+    padding-bottom: 10px;
+}
+footer {
+    text-align: center;
+    font-family: 'roboto';
+    font-size:20px ;
+    padding:30px;
+    margin:auto;
+}
+footer table {
+    margin-top:30px;
+    letter-spacing: 5px;
+}
